@@ -32,6 +32,7 @@ public class List {
 	}
 	public static void display(List head)
 	{
+		System.out.println("\nDisplaying list now\n");
 		while(head!=null)
 		{	
 			System.out.print(head.data+" ");
